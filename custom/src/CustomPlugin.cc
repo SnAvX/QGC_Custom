@@ -133,12 +133,12 @@ QGCOptions* CustomPlugin::options()
 
 QString CustomPlugin::brandImageIndoor(void) const
 {
-    return QStringLiteral("/custom/img/CustomAppIcon.png");
+    return QStringLiteral("/custom/res/Images/CustomAppIcon.png");
 }
-
+///custom/img/CustomAppIcon.png
 QString CustomPlugin::brandImageOutdoor(void) const
 {
-    return QStringLiteral("/custom/img/CustomAppIcon.png");
+    return QStringLiteral("/custom/res/Images/CustomAppIcon.png");
 }
 
 bool CustomPlugin::overrideSettingsGroupVisibility(QString name)
